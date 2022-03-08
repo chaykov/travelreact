@@ -8,7 +8,7 @@ function Card(props){
 
             <div className="card--main">
                 <div className="card--info">
-                    <img src="../images/pin.png" className="card--pin"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Map_pin_icon.svg/1200px-Map_pin_icon.svg.png" className="card--pin"/>
                     <span className="card--location upper-case">{props.location}</span>
                     <span className="card--google">View on Google Maps</span>
                 </div>
